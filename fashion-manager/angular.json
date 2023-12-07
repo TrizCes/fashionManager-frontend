@@ -5,8 +5,9 @@
   "projects": {
     "fashion-manager": {
       "projectType": "application",
-      "schematics": {"@schematics/angular:component": {
-        "styleext": "scss"
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
       }
     },
       "root": "",
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c59ff48b-81aa-4f1a-b041-d7effd113bf7"
   }
 }
